@@ -1,0 +1,79 @@
+0xe9769d9977914d368a74d9f58eB301A0C7B5Ac55
+
+
+------------------------------------------------
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Migrations.sol
+> Compiling ./contracts/lottery.sol
+> Artifacts written to /home/deependu/code/truffle/Lottery/build/contracts
+> Compiled successfully using:
+   - solc: 0.8.13+commit.abaa5c0e.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x27991a773860a7872162e19a04faa755440d2a1be2c779fe42f0ae0acd1d2b10
+   > Blocks: 0            Seconds: 44
+   > contract address:    0xc20000064CE4E4a62d44C072dd7eaBA44053Fd94
+   > block number:        12272179
+   > block timestamp:     1652778989
+   > account:             0xEA7BeD482289204C4041f30BCB5D4563EFE356B6
+   > balance:             7.669630686537556458
+   > gas used:            250154 (0x3d12a)
+   > gas price:           152.956458004 gwei
+   > value sent:          0 ETH
+   > total cost:          0.038262669795532616 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12272180)
+   > confirmation number: 2 (block: 12272181)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.038262669795532616 ETH
+
+
+2_deply_lottery.js
+==================
+
+   Deploying 'Lottery'
+   -------------------
+   > transaction hash:    0x9594f51e44d2004fdde17e6e112d521b2451e12d4ae87cdbbd25b036dcfda872
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xe9769d9977914d368a74d9f58eB301A0C7B5Ac55
+   > block number:        12272185
+   > block timestamp:     1652779124
+   > account:             0xEA7BeD482289204C4041f30BCB5D4563EFE356B6
+   > balance:             7.574328687932472252
+   > gas used:            706109 (0xac63d)
+   > gas price:           123.860585563 gwei
+   > value sent:          0 ETH
+   > total cost:          0.087459074211304367 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12272186)
+   > confirmation number: 2 (block: 12272187)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.087459074211304367 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.125721744006836983 ETH
